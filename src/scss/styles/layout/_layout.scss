@@ -1,0 +1,33 @@
+// .layout {
+// }
+.layout__row {
+    display: flex;
+    align-items: center;
+}
+.layout__text {
+    width: 616px;
+    margin-left: 80px;
+    h1{
+        font-family: $Russo;
+        font-size: 40px;
+        color: $accent-color;
+        padding-bottom: 24px;
+
+    }
+    p{
+        font-family: $Quicksand;
+        font-size: 18px;
+        color: $accent-color;
+        padding-bottom: 32px;
+
+    }
+    li{
+        display: flex;
+        margin-bottom: 16px;
+    }
+    img{
+        padding-right: 16px;
+    }
+}
+// .layout__content {
+// }

@@ -1,0 +1,41 @@
+body,
+html {
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Quicksand', sans-serif; 
+  font-size: 16px;
+}
+.conteiner {
+  background-color: #F6E6CD;
+  max-width: 1470px;
+  margin-left: auto;
+  margin-right: auto;
+  // padding-right: 15px;
+  // padding-left: 15px;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.flex_center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.conteiner__neutral{
+  margin-top: 112px;
+  margin-bottom: 112px;
+  background-color: #ffffff;
+  max-width: 1406px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.conteiner__description{
+  width: 616px;
+  height: 1326px;
+
+}
+.clear_back{
+  background-color: white;
+}

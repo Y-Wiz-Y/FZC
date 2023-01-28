@@ -1,0 +1,56 @@
+.form {
+  display: flex;
+  justify-content: center;
+}
+.form-description {
+  display: flex;
+}
+.form__label {
+  display: flex;
+  justify-content: space-between;
+  height: 48px;
+}
+.form__input {
+  border-radius: 15px;
+  border: 2px solid #252525;
+  height: 49px;
+  width: 367px;
+  padding-left: 12px;
+  padding-right: 12px;
+  color: #252525;
+  position: a;
+}
+.form__absolute {
+  position: absolute;
+}
+.form__submit {
+  position: absolute;
+  margin-top: 12px;
+  margin-left: 200px;
+  width: 16px; /* Ширина кнопки */
+  height: 16px; /* Высота кнопки */
+  border: none; /* Убираем рамку */
+  background: red;
+}
+// .form__choice{
+//     width: 300px; /* Ширина поля с кнопкой */
+//     border: 1px solid #000; /* Параметры рамки */
+//     min-height: 20px; /* Минимальная высота */
+// } -- смысл ???
+.form__counter {
+  width: 64px;
+  height: 48px;
+  border: 2px solid #252525;
+  border-radius: 10px;
+  text-align: center;
+  color: black;
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+}
+::placeholder {
+  font-family: $Robot;
+  color: #505050ed;
+}

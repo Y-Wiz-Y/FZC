@@ -1,0 +1,30 @@
+// .header {
+// }
+.header__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__text {
+    padding-left: 80px;
+    padding-right: 60px;
+    padding-bottom: 36px;
+
+    p{
+        font-family: 'Quicksand', sans-serif;
+        font-size: 18px;
+    }
+
+}
+.header__title {
+    padding-bottom: 24px;
+    font-family: 'Russo One', sans-serif;
+    font-size: 56px;
+    color: $accent-color;
+
+}
+.header_action {
+    padding-top: 24px;
+}
+// .header__img {
+// }

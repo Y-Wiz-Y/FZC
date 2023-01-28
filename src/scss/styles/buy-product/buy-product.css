@@ -1,0 +1,12 @@
+.category {
+  display: flex;
+  padding-bottom: 24px;
+}
+.category .category__symbol {
+  margin-right: 5px;
+  margin-left: 5px;
+  color: #F47726;
+}
+.category .secP {
+  font-style: Bold;
+}/*# sourceMappingURL=buy-product.css.map */

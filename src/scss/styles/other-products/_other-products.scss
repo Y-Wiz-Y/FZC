@@ -1,0 +1,72 @@
+.other-products {
+  margin-left: 64px;
+  margin-right: 64px;
+}
+// .other-products__row {
+// }
+.other-product__block{
+  display: flex;
+  align-items:flex-end;
+}
+.other-products__text {
+  // margin-top: 112px;
+  // margin-bottom: 80px;
+
+  .pre-title {
+    // font-style: ;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+  }
+  h1 {
+    font-family: 'Russo One', sans-serif;
+    font-size: 48px;
+  }
+  // p{
+  //     letter-spacing: ;
+  // }
+}
+
+.other-product_action {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
+}
+.other-products__sentences {
+  margin-top: 80px;
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  // li:first-child,:last-child{
+  //     // padding: 32px;
+  // }
+  .other__block {
+    img {
+      padding-bottom: 16px;
+    }
+    .other__price {
+      font-family: $Quicksand;
+      font-weight: bold;
+    }
+    p {
+      color: accent-color;
+    }
+  }
+}
+// .other__block {
+
+// }
+// <div class="tranding-products">
+//       <div class="conteiner__neutral">
+//         <div class="tranding-products__row">
+//           <div class="tranding-products__block">
+//             <div class="tranding-products__text ">
+//               <div class="pre-title">TRANDING</div>
+//               <h1>Tranding Products</h1>
+//               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+//             </div>
+//             <div class="tranding-product_action">
+//               <button class="neutral_button" type="">View all</button>
+//             </div>
+//           </div>

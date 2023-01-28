@@ -1,0 +1,40 @@
+.conteiner__logo {
+    img {
+        margin-left: 64px;
+    }
+}
+
+.navigate {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navigate__list {
+    ul{
+        display: flex;
+        
+    }
+    li{
+        margin-right: 32px ;
+    }
+    a{
+        font-size: $accent-size;
+        text-decoration: none;
+        color:inherit;
+        font-weight: bold;
+    }
+}
+.cart {
+    display: flex;
+    padding: 8px 20px 8px 20px;
+    margin-right: 64px;
+    border-style: solid;
+    border-radius: 100px;
+    font-size: $accent-size;
+    font-family: 'Quicksand', sans-serif; 
+    font-weight: bold;
+    .cart__count{
+        margin-left: 8px;
+        color: #F47726;
+    }
+}

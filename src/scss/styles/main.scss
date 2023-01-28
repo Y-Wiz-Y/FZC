@@ -1,0 +1,27 @@
+//base
+@import "./base/reset";
+@import "./base/base";
+@import "./base/vars";
+@import "./base/button";
+@import "./base/form";
+
+
+
+//fonts
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&family=Roboto:ital,wght@0,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&family=Quicksand:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&family=Quicksand:wght@400;700&family=Russo+One&display=swap');
+
+//blocks
+@import "./nav/nav";
+@import "./header/header";
+@import "./trading-products/trading-products";
+@import "./other-products/other-products";
+@import "./layout/layout";
+@import "./cta/cta";
+@import "./footer/footer";
+@import "./buy-product/buy-product";
+
+
+
+

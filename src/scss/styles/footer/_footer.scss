@@ -1,0 +1,52 @@
+.footer {
+}
+
+.footer__nav {
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+
+}
+.footer__row {
+    ul{
+        display: flex;
+        justify-content: space-between;
+        li{
+            padding-left: 32px;
+            color: $accent-color;
+            font-family: $Quicksand;
+            font-size: 16px;
+            font-weight: bold;
+        }
+    }
+}
+.navigate {
+}
+.footer__certificate {
+    
+
+}
+.footer__certificate-block {
+    margin-top: 64px;
+    padding-top: 32px;
+    border-top: 1px solid $accent-color;
+    display: flex;
+    justify-content: space-between;
+    p{
+        padding-right: 20px;
+    }
+    ul{
+        display: flex;
+        li{
+            padding-left: 24px;
+            color: black;
+            
+            
+            
+        }
+    }
+}
+.certificate {
+
+}

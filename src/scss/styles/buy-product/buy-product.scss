@@ -1,0 +1,242 @@
+.category {
+  display: flex;
+  padding-bottom: 24px;
+  .category__symbol {
+    margin-right: 5px;
+    margin-left: 5px;
+    color: #f47726;
+  }
+  .secP {
+    font-weight: 600;
+  }
+}
+.product {
+  display: flex;
+  max-height: 1483px;
+  padding-bottom: 112px;
+  .product-content-images {
+    display: flex;
+    .img-list {
+      img {
+        width: 100px;
+        border-radius: 10px;
+      }
+    }
+    .big-img {
+      margin-left: 16px;
+    }
+  }
+  .product-content {
+    margin-left: 80px;
+    .product-order {
+      h3 {
+        font-size: 40px;
+      }
+      h4 {
+        font-size: 24px;
+        padding-bottom: 24px;
+      }
+      .rating {
+        padding-bottom: 24px;
+        display: flex;
+        ul {
+          display: flex;
+          li {
+            margin-right: 2px;
+            font-size: 20px;
+          }
+          margin-right: 8px;
+        }
+        .mark {
+          padding-left: 10px;
+          margin-right: 6px;
+          color: black;
+        }
+      }
+      p {
+        // тут $Quicksand ,но выглядит как robot
+        font-family: $Robot;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        flex: none;
+        order: 2;
+        align-self: stretch;
+        flex-grow: 0;
+        color: #000000;
+        padding-bottom: 24px;
+      }
+    }
+  }
+  .product-content-input {
+    .description-drop-block {
+      ul {
+        display: flex;
+        flex-direction: column;
+        // li:not(:last-child){
+
+        // }
+
+        li {
+          margin-top: -1px;
+          background: #ffffff;
+          border: 1px solid #252525;
+          height: 49px;
+          width: 367px;
+          border-radius: 10px;
+
+          .description-drop-block__cintent {
+            position: relative;
+            top: 30%;
+            left: 4%;
+            font-family: 'Quicksand';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 150%;
+          }
+        }
+      }
+    }
+  }
+
+  .product-content-category {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    ul {
+      display: flex;
+      li {
+        margin-right: 16px;
+      }
+    }
+  }
+  .product-content-options {
+    padding-top: 24px;
+    ul {
+      li:first-child {
+        padding-bottom: 16px;
+      }
+      li:last-child {
+        padding-bottom: 24px;
+      }
+    }
+    p {
+      display: flex;
+      justify-content: center;
+      padding-bottom: 32px;
+    }
+  }
+
+  .variant {
+    // padding-top:24px ;
+    padding-bottom: 8px;
+    font-family: $Quicksand;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+  }
+  .product-descriptions {
+    .descriptions-block__line {
+      border-top: 2px solid #f47726;
+      padding-bottom: 16px;
+      // padding-top: 32px;
+    }
+    .descriptions-block__black-line {
+      border-top: 2px solid black;
+      padding-bottom: 16px;
+      // padding-top: 32px;
+    }
+
+    h3 {
+
+      font-family: 'Quicksand';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 150%;
+      /* identical to box height, or 27px */
+
+      letter-spacing: 0.035em;
+
+      color: #252525;
+    }
+    .staging_button{
+      position: relative;
+      left: 616px;
+      bottom: 25px;
+      color: #f47726;
+    }
+
+    p {
+      font-family: 'Quicksand';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 150%;
+      padding-bottom: 24px;
+    }
+  }
+}
+.p__n-active{
+  display: none;
+}
+
+
+// stars
+
+.wrapper-stars {
+  position: relative;
+  font-size: 20px;
+  display: inline-block;
+  bottom: 5px;
+
+  &::before {
+    content: '★★★★★';
+    display: block;
+  }
+
+  .stars {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    .star__input {
+      position: absolute;
+      width: 0%;
+      height: 0%;
+      opacity: 0;
+      top: 0;
+      left: 0;
+      visibility: hidden;
+
+      &:checked,
+      &:checked ~ .star__label {
+        color: #ffd300;
+      }
+    }
+    .star__label {
+      flex: 0 0 20%;
+      height: 100%;
+      cursor: pointer;
+      color: rgb(193, 64, 64);
+
+      &::before {
+        content: '★';
+        display: block;
+        transition: color 0, 3s ease 0s;
+      }
+
+      &:hover,
+      &:hover ~ .star__label,
+      &:checked ~ .star__label:hover {
+        color: #e1d185;
+      }
+    }
+  }
+}

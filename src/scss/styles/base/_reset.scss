@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6,p{
+    font-size: inherit;
+}
+input,button{
+    border: 0;
+    font-family: inherit;
+    font-size: inherit;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul,li {
+    list-style: none;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+}
+button{
+
+    background: none;
+    cursor: pointer;
+}

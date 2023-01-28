@@ -1,0 +1,96 @@
+.yellow_botton {
+  // padding: 12px, 24px, 12px, 24px;
+  border-radius: 100px;
+  font-size: 16px;
+  height: 59px;
+  width: 185px;
+  background: linear-gradient(to left, #f47726 0%, #ffb483 100%);
+  box-shadow: 0px 24px 48px 0px #0000002e;
+  color: white;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.neutral_button {
+  font-weight: bold;
+  height: 40px;
+  width: 143px;
+  border-radius: 100px;
+  border: 2px solid #252525;
+  // padding: 12px, 24px, 12px, 24px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.button_buy {
+  font-weight: bold;
+  width: 616px;
+  height: 64px;
+  border-radius: 100px;
+  border: 0px solid #252525;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  box-shadow: 0px 24px 48px rgba(0, 0, 0, 0.18);
+}
+.button_arrow-down {
+  position: relative;
+  right: 30px;
+  bottom: 8px;
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+.button_arrow-up {
+  position: relative;
+  right: 30px;
+  bottom: 6px;
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+.beige {
+  background: #f6e6cd;
+}
+.black {
+  background-color: #252525;
+  color: white;
+}
+.active {
+  background: #252525;
+  color: white;
+}
+.non-active {
+  opacity: 0.5;
+}
+.orange-button_arrow-up {
+  position: relative;
+  right: 30px;
+  bottom: 6px;
+  border: solid #f47726;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+.orange-button_arrow-down {
+  position: relative;
+  right: 30px;
+  bottom: 8px;
+  border: solid #f47726;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}

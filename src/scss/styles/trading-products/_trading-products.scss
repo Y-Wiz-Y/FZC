@@ -1,0 +1,65 @@
+.tranding-products {
+    margin-left: 64px;
+    margin-right: 64px;
+}
+// .tranding-products__row {
+// }
+.tranding-products__block{
+    display: flex;
+    align-items:flex-end;
+}
+.tranding-products__text {
+
+    .pre-title {
+        // font-style: ;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 16px;
+    }
+    h1{
+        font-family: 'Russo One', sans-serif;
+        font-size: 48px;
+    }
+    // p{
+    //     letter-spacing: ;
+    // }
+
+
+}
+
+.tranding-product_action {
+
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+
+
+}
+.tranding-products__sentences {
+    margin-top: 80px;
+    ul{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    // li:first-child,:last-child{
+    //     // padding: 32px;
+    // }
+    .tranding__block{
+        img{
+            padding-bottom: 16px;
+        }
+        .tranding__price{
+            font-family: $Quicksand;
+            font-weight: bold;
+        }
+        p{
+            color:accent-color;
+        }
+    }
+        
+
+}
+
+// .tranding__block {
+
+// }
